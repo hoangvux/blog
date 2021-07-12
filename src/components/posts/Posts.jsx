@@ -13,6 +13,13 @@ export default function Posts({posts}) {
       const filteredPosts = posts.filter(post =>
         post.title.toLowerCase().includes(search.toLowerCase())
       );
+        // if (filteredPosts.length < 1) {
+        //     return (
+        //     <h2 className='section-title'>
+        //         no data
+        //     </h2>
+        //     )
+        // }
           return (     
                 <>
                     <div className='posts'>

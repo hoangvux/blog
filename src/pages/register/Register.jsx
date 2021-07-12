@@ -53,14 +53,14 @@ export default function Register() {
         />
         <button className="registerButton" type="submit">
           Register
-        </button>
+       </button>
+         {error && <span style={{color:"red", marginTop:"10px"}}>Something went wrong!</span>}
       </form>
         <Link className="link" to="/login">
           <button className="registerLoginButton">
            Login
          </button>
         </Link>
-      {error && <span style={{color:"red", marginTop:"10px"}}>Something went wrong!</span>}
     </div>
   );
 }

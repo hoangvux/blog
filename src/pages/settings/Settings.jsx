@@ -19,7 +19,6 @@ export default function Settings() {
       const res = await axios.get('http://localhost:8000/api/users/'+ user._id)
         setUsername(res.data.username)
         setEmail(res.data.email)
-        setPassword(res.data.password)
     } 
   getUser()
   },[ user._id])

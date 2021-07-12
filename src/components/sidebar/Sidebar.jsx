@@ -21,7 +21,9 @@ export default function Sidebar() {
                 <span className="sidebarTitle">ABOUT ME</span>
                     {user && <img src={PF + user.profilePic}alt="" />}
                 <p>
-                    sdffdsasffffffffffffffasdf
+                       adasdddddddddddddddddddddddddasd
+                       adaaaaaaaaaaaaaaaaaaaaaaaaaaaaads
+                       asddddddddddddddddddddddddddddd
                 </p>
             </div>
             <div className="sidebarItem">
